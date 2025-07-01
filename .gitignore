@@ -1,0 +1,90 @@
+# R and RStudio files
+.RData
+.Rhistory
+.Rapp.history
+.Ruserdata
+*-Ex.R
+*.Rcheck/
+.Rproj.user/
+*.Rproj
+
+# R package development
+.Rbuildignore
+inst/doc/
+vignettes/*.html
+vignettes/*.pdf
+vignettes/*_cache/
+vignettes/*_files/
+
+# Generated plots and outputs
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+Rplots.pdf
+*_files/
+*_cache/
+
+# Simulation and analysis outputs
+results/
+output/
+simulations/
+*_results.csv
+*_results.txt
+*_output.rds
+*_cache.rds
+
+# Log files
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LaTeX auxiliary files (if generating reports)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+
+# Stan/MCMC specific
+*.stan_compiled
+*.rds.cached
+*_mcmc_samples.rds
+*_diagnostics.rds
+
+# Backup files
+*.bak
+*.backup
+
+# Large datasets (uncomment if needed)
+# *.csv
+# *.xlsx
+# *.rds
+
+# Environment variables
+.env
+.Renviron 
